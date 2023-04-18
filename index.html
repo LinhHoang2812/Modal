@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <title>Modal project</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <div class="nav-header">
+          <img src="logo1.png" alt="logo" class="logo mainlogo" />
+          <button class="sidebar-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#main-content">Product</a></li>
+          <li><a href="index.html">Blog</a></li>
+        </ul>
+      </div>
+    </nav>
+    <aside class="sidebar">
+      <div>
+        <img src="logo.png" alt="logo" class="logo" />
+      </div>
+      <ul class="links sidebar-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Product</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </aside>
+    <main id="main-content">
+      <!-- product section -->
+      <div class="title">
+        <h2>Our product</h2>
+      </div>
+      <div class="product-container">
+        <!-- start item -->
+        <article class="product item1">
+          <div class="product-title">
+            <button type="button" class="btn-img">
+              <img src="image/item1.jpg" class="product-img" />
+            </button>
+          </div>
+          <div class="product-info">
+            <h3>Serum 1</h3>
+            <p>$15</p>
+          </div>
+        </article>
+        <!-- end of item -->
+
+        <!-- start item -->
+        <article class="product item2">
+          <div class="product-title">
+            <button type="button" class="btn-img">
+              <img src="image/item2.jpg" class="product-img" />
+            </button>
+          </div>
+
+          <div class="product-info">
+            <h3>Serum 2</h3>
+            <p>$15</p>
+          </div>
+        </article>
+        <!-- end of item -->
+
+        <!-- start item -->
+        <article class="product item3">
+          <div class="product-title">
+            <button type="button" class="btn-img">
+              <img src="image/item3.jpg" class="product-img" />
+            </button>
+          </div>
+
+          <div class="product-info">
+            <h3>Serum 3</h3>
+            <p>$14</p>
+          </div>
+        </article>
+        <!-- end of item -->
+
+        <!-- start item -->
+        <article class="product item4">
+          <div class="product-title">
+            <button type="button" class="btn-img">
+              <img src="image/item4.jpg" class="product-img" />
+            </button>
+          </div>
+
+          <div class="product-info">
+            <h3>Serum 4</h3>
+            <p>$12</p>
+          </div>
+        </article>
+        <!-- end of item -->
+
+        <!-- start item -->
+        <article class="product item5">
+          <div class="product-title">
+            <button type="button" class="btn-img">
+              <img src="image/item5.png" class="product-img" />
+            </button>
+          </div>
+          <div class="product-info">
+            <h3>Serum 5</h3>
+            <p>$16</p>
+          </div>
+        </article>
+        <!-- end of item -->
+
+        <!-- start item -->
+        <article class="product item6">
+          <div class="product-title">
+            <button type="button" class="btn-img">
+              <img src="image/item6.jpg" class="product-img" />
+            </button>
+          </div>
+
+          <div class="product-info">
+            <h3>Serum 6</h3>
+            <p>$13</p>
+          </div>
+        </article>
+        <!-- end of item -->
+      </div>
+
+      <!-- modal section -->
+
+      <!-- start modal -->
+      <div class="modal-overlay item1">
+        <div class="modal-container">
+          <img class="modal-img" src="image/item1.jpg" alt="" />
+          <div class="product-content">
+            <h3>Serum 1</h3>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
+              reprehenderit porro perspiciatis, dolore nemo velit quia
+              consequuntur quos officia labore at, voluptatibus maxime!
+              Excepturi illum maxime accusamus fugiat quaerat eos. Lorem ipsum
+              dolor sit, amet consectetur adipisicing elit. Deleniti
+              reprehenderit porro perspiciatis, dolore nemo velit quia
+              consequuntur quos officia labore at, voluptatibus maxime!
+              Excepturi illum maxime accusamus fugiat quaerat eos.
+            </p>
+            <p class="price">Price: $15</p>
+            <button class="cart">Add to cart</button>
+            <button class="close-btn">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- end modal -->
+
+      <!-- start modal -->
+      <div class="modal-overlay item2">
+        <div class="modal-container">
+          <img class="modal-img" src="image/item2.jpg" alt="" />
+          <div class="product-content">
+            <h3>Serum 2</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
+              reprehenderit porro perspiciatis, dolore nemo velit quia
+              consequuntur quos officia labore at, voluptatibus maxime!
+              Excepturi illum maxime accusamus fugiat quaerat eos.
+            </p>
+            <p class="price">Price: $15</p>
+            <button class="cart">Add to cart</button>
+            <button class="close-btn">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- end modal -->
+
+      <!-- start modal -->
+      <div class="modal-overlay item3">
+        <div class="modal-container">
+          <img class="modal-img" src="image/item3.jpg" alt="" />
+          <div class="product-content">
+            <h3>Serum 3</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
+              reprehenderit porro perspiciatis, dolore nemo velit quia
+              consequuntur quos officia labore at, voluptatibus maxime!
+              Excepturi illum maxime accusamus fugiat quaerat eos.
+            </p>
+            <p class="price">Price: $14</p>
+            <button class="cart">Add to cart</button>
+            <button class="close-btn">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- end modal -->
+
+      <!-- start modal -->
+      <div class="modal-overlay item4">
+        <div class="modal-container">
+          <img class="modal-img" src="image/item4.jpg" alt="" />
+          <div class="product-content">
+            <h3>Serum 4</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
+              reprehenderit porro perspiciatis, dolore nemo velit quia
+              consequuntur quos officia labore at, voluptatibus maxime!
+              Excepturi illum maxime accusamus fugiat quaerat eos.
+            </p>
+            <p class="price">Price: $12</p>
+            <button class="cart">Add to cart</button>
+            <button class="close-btn">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- end modal -->
+
+      <!-- start modal -->
+      <div class="modal-overlay item5">
+        <div class="modal-container">
+          <img class="modal-img" src="image/item5.png" alt="" />
+          <div class="product-content">
+            <h3>Serum 5</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
+              reprehenderit porro perspiciatis, dolore nemo velit quia
+              consequuntur quos officia labore at, voluptatibus maxime!
+              Excepturi illum maxime accusamus fugiat quaerat eos.
+            </p>
+            <p class="price">Price: $16</p>
+            <button class="cart">Add to cart</button>
+            <button class="close-btn">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- end modal -->
+
+      <!-- start modal -->
+      <div class="modal-overlay item6">
+        <div class="modal-container">
+          <img class="modal-img" src="image/item6.jpg" alt="" />
+          <div class="product-content">
+            <h3>Serum 6</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
+              reprehenderit porro perspiciatis, dolore nemo velit quia
+              consequuntur quos officia labore at, voluptatibus maxime!
+              Excepturi illum maxime accusamus fugiat quaerat eos.
+            </p>
+            <p class="price">Price: $13</p>
+            <button class="cart">Add to cart</button>
+            <button class="close-btn">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- end modal -->
+    </main>
+    <div class="copyright">
+      <span>© 2023 by Linh Hoang</span>
+    </div>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
