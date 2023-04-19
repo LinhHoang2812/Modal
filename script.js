@@ -17,9 +17,9 @@ const modals = document.querySelectorAll(".modal-overlay");
 products.forEach(function (product) {
   let image = product.querySelector(".btn-img");
   image.addEventListener("click", function () {
-    let itemName = product.classList[1];
+    let itemName = product.dataset.name;
     modals.forEach(function (modal) {
-      let modalName = modal.classList[1];
+      let modalName = modal.dataset.name;
       if (itemName === modalName) {
         modal.classList.add("show-modal");
       }
