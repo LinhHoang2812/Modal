@@ -1,5 +1,5 @@
 const toggleBtn = document.querySelector(".sidebar-toggle");
-const sidebar = document.querySelector(".sidebar");
+const sidebar = document.querySelector(".links");
 
 toggleBtn.addEventListener("click", function () {
   sidebar.classList.toggle("show-sidebar");
